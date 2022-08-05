@@ -1,7 +1,7 @@
 # R Sandbox
 
-R functions to share with the OFP-SAM team, which do not have a home in a
-package (yet).
+This is a place to share R functions with the OFP-SAM team, which do not have a
+home in a package (yet).
 
 ## Packages
 
