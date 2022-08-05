@@ -1,2 +1,18 @@
-# ofp-sam-r-sandbox
-R functions to share, which do not have a home in a package (yet)
+# R Sandbox
+
+R functions to share with the OFP-SAM team, which do not have a home in a
+package (yet).
+
+## Packages
+
+The OFP-SAM team maintains - to a varying degree - the following R packages:
+
+Package                                                              | Maintainer              | Last modified | Dependencies                                                                                                                                    | Purpose
+-------------------------------------------------------------------- | ----------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------
+[diags4MFCL](https://github.com/PacificCommunity/ofp-sam-diags4MFCL) | Nicholas Ducharme-Barth | 2022 Jan      | FLR4MFCL, frqit, data.table, ggplot2, ggthemes, magrittr, RColorBrewer                                                                          | Present MULTIFAN-CL results and diagnostics
+[frqit](https://github.com/PacificCommunity/ofp-sam-frqit)           | Matthew Vincent         | 2021 Jun      | FLR4MFCL                                                                                                                                        | Read and manipulate MFCL frq files in an efficient and intuitive manner
+[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-flr4mfcl)     | Robert Scott            | 2022 Jul      | FLCore                                                                                                                                          | Tame MULTIFAN-CL
+[miWantemLuk](https://github.com/PacificCommunity/mi-wantem-luk)     | Robert Scott            | 2022 Jul      | FLR4MFCL, chorddiag, hrbrthemes, networkD3, patchwork, r2d3, tidyverse, viridis                                                                 | Graphing and data visualisation
+[R4MFCL](https://github.com/PacificCommunity/ofp-sam-r4mfcl)         | Matthew Vincent         | 2020 Jul      | data.table, dplyr, ggmap, ggplot2, gridExtra, magrittr, mapdata, maps, reshape2, rlang, RODBC, RSQLite, scales, stringr, tidyr, viridis, xtable | Automate the running and analysis of MULTIFAN-CL stock assessments
+
+The 'last modified' and 'dependencies' columns are subject to change. They were last updated on 6 Aug 2022.
