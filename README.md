@@ -3,7 +3,15 @@
 This is a place to share R functions with the OFP-SAM team, which do not have a
 home in a package (yet).
 
-## Packages
+## cor-tools
+
+The [cor-tools](cor-tools) folder contains functions to diagnose correlation
+matrices:
+
+* [corHist](cor-tools/corHist.R)
+* [corLabels](cor-tools/corHist.R)
+
+## OFP-SAM Packages
 
 The OFP-SAM team maintains, to a varying degree, the following R packages:
 
