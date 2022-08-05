@@ -5,7 +5,7 @@ package (yet).
 
 ## Packages
 
-The OFP-SAM team maintains - to a varying degree - the following R packages:
+The OFP-SAM team maintains, to a varying degree, the following R packages:
 
 Package                                                              | Maintainer              | Last modified | Dependencies                                                                                                                                    | Purpose
 -------------------------------------------------------------------- | ----------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------
