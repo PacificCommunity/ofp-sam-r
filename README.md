@@ -9,7 +9,7 @@ The [cor-tools](cor-tools) folder contains functions to diagnose correlation
 matrices:
 
 * [corHist](cor-tools/corHist.R) - plot a correlation histogram and produce a frequency table
-* [corLabels](cor-tools/corLabels.R) - label correlations and produce a frequency table
+* [corLabel](cor-tools/corLabel.R) - label correlations and produce a frequency table
 
 Install:
 
