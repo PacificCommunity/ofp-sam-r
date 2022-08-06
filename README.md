@@ -8,8 +8,21 @@ home in a package (yet).
 The [cor-tools](cor-tools) folder contains functions to diagnose correlation
 matrices:
 
-* [corHist](cor-tools/corHist.R)
-* [corLabels](cor-tools/corHist.R)
+* [corHist](cor-tools/corHist.R) - plot a correlation histogram and produce a frequency table
+* [corLabels](cor-tools/corHist.R) - label correlations and produce a frequency table
+
+Install:
+
+```
+source("https://raw.githubusercontent.com/PacificCommunity/ofp-sam-r-sandbox/main/cor-tools.R")
+```
+
+Run:
+
+```
+corHist(five)
+corLabels(five)
+```
 
 ## OFP-SAM Packages
 
