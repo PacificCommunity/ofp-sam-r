@@ -1,6 +1,6 @@
 #' Correlation Histogram
 #'
-#' Plot a histogram of parameter correlations.
+#' Plot a histogram of parameter correlations and produce a frequency table.
 #'
 #' @param x is a correlation matrix or a filename.
 #'
