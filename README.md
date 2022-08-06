@@ -21,7 +21,7 @@ Run:
 
 ```
 corHist(five)
-corLabels(five)
+corLabel(five)
 ```
 
 ## OFP-SAM Packages
