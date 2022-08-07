@@ -22,7 +22,7 @@ corHist <- function(x)
 {
   ## Get correlations
   if(is.character(x) && file.exists(x))
-    x <- read.table(corfile, header=TRUE, row.names=1, check.names=FALSE)
+    x <- read.table(x, header=TRUE, row.names=1, check.names=FALSE)
   x <- as.matrix(x)
   x <- x[upper.tri(x)]
 

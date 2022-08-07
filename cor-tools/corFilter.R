@@ -37,7 +37,7 @@ corFilter <- function(x, level=0.9, sort=TRUE, names=NULL)
 
   ## Get correlations
   if(is.character(x) && file.exists(x))
-    x <- read.table(corfile, header=TRUE, row.names=1, check.names=FALSE)
+    x <- read.table(x, header=TRUE, row.names=1, check.names=FALSE)
   x <- as.matrix(x)
   if(is.null(names))
   {
