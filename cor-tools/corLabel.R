@@ -7,7 +7,8 @@
 #' @return Data frame with label counts.
 #'
 #' @seealso
-#' \code{corHist} plots a correlation histogram and produces a frequency table.
+#' \code{\link{corHist}} plots a correlation histogram and produces a frequency
+#' table.
 #'
 #' @examples
 #' source("five.R")

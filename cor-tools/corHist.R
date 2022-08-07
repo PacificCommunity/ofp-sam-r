@@ -7,7 +7,7 @@
 #' @return Data frame with bin counts.
 #'
 #' @seealso
-#' \code{corLabel} labels correlations and produces a frequency table.
+#' \code{\link{corLabel}} labels correlations and produces a frequency table.
 #'
 #' @examples
 #' source("five.R")
