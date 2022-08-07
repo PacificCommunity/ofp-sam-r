@@ -36,7 +36,7 @@ corFilter <- function(x, level=0.9, sort=TRUE, names=NULL)
   ## Name all objects 'x' to save memory
 
   ## Get correlations
-  if(is.character(x) && file.exists(x))
+  if(is.character(x))
     x <- read.table(x, header=TRUE, row.names=1, check.names=FALSE)
   x <- as.matrix(x)
   if(is.null(names))
