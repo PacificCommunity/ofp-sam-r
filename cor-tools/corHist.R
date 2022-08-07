@@ -21,11 +21,11 @@ corHist <- function(x)
   if(is.character(x) && file.exists(x))
     x <- read.table(corfile, header=TRUE, row.names=1, check.names=FALSE)
   x <- as.matrix(x)
-  r <- x[upper.tri(x)]
+  x <- x[upper.tri(x)]
 
   ## Plot histogram
   xlab <- expression(paste("Corr(", hat(theta)[i], ",", hat(theta)[j], ")"))
-  out <- hist(r, breaks=seq(-1.0, 1.0, 0.1), main=NULL, xlab=xlab)
+  out <- hist(x, breaks=seq(-1.0, 1.0, 0.1), main=NULL, xlab=xlab)
 
   ## Prepare frequency table
   out <- as.data.frame(out[c("mids", "counts")])
