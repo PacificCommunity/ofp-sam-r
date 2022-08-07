@@ -8,6 +8,7 @@ not have a home in a package (yet).
 The [cor-tools](cor-tools) folder contains functions to diagnose correlation
 matrices:
 
+* [corFilter](cor-tools/corFilter.R) - filter to show highest correlations
 * [corHist](cor-tools/corHist.R) - plot a correlation histogram and produce a frequency table
 * [corLabel](cor-tools/corLabel.R) - label correlations and produce a frequency table
 
