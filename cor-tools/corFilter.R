@@ -5,7 +5,7 @@
 #' @param x is a correlation matrix or a filename.
 #' @param level filter level.
 #' @param sort whether to sort the resulting data frame by absolute correlation.
-#' @param names parameter names, the default is \code{colnames(x)}.
+#' @param names parameter names, the default is \code{rownames(x)}.
 #'
 #' @details
 #' The resulting data frame includes all correlations \code{|r| >= level}.
@@ -41,7 +41,7 @@ corFilter <- function(x, level=0.9, sort=TRUE, names=NULL)
   x <- as.matrix(x)
   if(is.null(names))
   {
-    names <- if(!is.null(colnames(x))) colnames(x) else as.character(1:ncol(x))
+    names <- if(!is.null(rownames(x))) rownames(x) else as.character(1:ncol(x))
   }
 
   ## Construct data frame
