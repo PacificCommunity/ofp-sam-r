@@ -7,6 +7,9 @@
 #' @return Data frame with label counts.
 #'
 #' @seealso
+#' \code{\link{corFilter}} filters correlation matrix to show highest
+#' correlations.
+#'
 #' \code{\link{corHist}} plots a correlation histogram and produces a frequency
 #' table.
 #'

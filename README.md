@@ -20,6 +20,7 @@ source("https://raw.githubusercontent.com/PacificCommunity/ofp-sam-r-sandbox/mai
 Run:
 
 ```
+corFilter(five)
 corHist(five)
 corLabel(five)
 ```

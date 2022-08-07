@@ -7,6 +7,9 @@
 #' @return Data frame with bin counts.
 #'
 #' @seealso
+#' \code{\link{corFilter}} filters correlation matrix to show highest
+#' correlations.
+#'
 #' \code{\link{corLabel}} labels correlations and produces a frequency table.
 #'
 #' @examples
