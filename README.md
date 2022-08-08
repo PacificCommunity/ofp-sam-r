@@ -1,7 +1,7 @@
 # R Sandbox
 
-This is a place to share R code with the OFP-SAM team, mainly functions that do
-not have a home in a package (yet).
+This is a place to share R code used by the OFP-SAM team, mainly functions that
+do not have a home in a package (yet).
 
 ## cor-tools
 
