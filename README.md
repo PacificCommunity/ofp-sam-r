@@ -28,7 +28,8 @@ corLabel(five)
 
 ## OFP-SAM Packages
 
-The OFP-SAM team maintains, to a varying degree, the following R packages:
+The OFP-SAM team maintains, to a varying degree, the following R packages
+related to Multifan-CL:
 
 Package                                                              | Maintainer | Last modified | Dependencies                                                                                                                                    | Purpose
 -------------------------------------------------------------------- | ---------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------
