@@ -12,7 +12,7 @@ matrices:
 * [corHist](cor-tools/corHist.R) - plot a correlation histogram and produce a frequency table
 * [corLabel](cor-tools/corLabel.R) - label correlations and produce a frequency table
 
-Install:
+Load functions into R session:
 
 ```
 source("https://raw.githubusercontent.com/PacificCommunity/ofp-sam-r-sandbox/main/cor-tools.R")
