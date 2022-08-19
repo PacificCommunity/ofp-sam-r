@@ -2,7 +2,7 @@
 #'
 #' Filter correlation matrix to show highest correlations.
 #'
-#' @param x is a correlation matrix or a filename.
+#' @param x is correlation matrix or a filename.
 #' @param level filter level.
 #' @param sort whether to sort the resulting data frame by absolute correlation.
 #' @param names parameter names, the default is \code{rownames(x)}.

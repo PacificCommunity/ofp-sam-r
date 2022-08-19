@@ -2,7 +2,7 @@
 #'
 #' Label correlations and produce a frequency table.
 #'
-#' @param x is a correlation matrix or a filename.
+#' @param x a correlation matrix or a filename.
 #'
 #' @return Data frame with label counts.
 #'
