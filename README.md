@@ -35,9 +35,9 @@ Package                                                              | Maintaine
 -------------------------------------------------------------------- | ---------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------
 [diags4MFCL](https://github.com/PacificCommunity/ofp-sam-diags4MFCL) | Nicholas   | 2022 Jan      | FLR4MFCL, frqit, data.table, ggplot2, ggthemes, magrittr, RColorBrewer                                                                          | Present MFCL results and diagnostics
 [frqit](https://github.com/PacificCommunity/ofp-sam-frqit)           | Matt       | 2021 Jun      | FLR4MFCL                                                                                                                                        | Read and manipulate MFCL frq files
-[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-flr4mfcl)     | Rob        | 2022 Jul      | FLCore                                                                                                                                          | Tame MULTIFAN-CL
+[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-flr4mfcl)     | Rob        | 2022 Nov      | FLCore                                                                                                                                          | Tame MULTIFAN-CL
 [miWantemLuk](https://github.com/PacificCommunity/mi-wantem-luk)     | Rob        | 2022 Jul      | FLR4MFCL, chorddiag, hrbrthemes, networkD3, patchwork, r2d3, tidyverse, viridis                                                                 | Graphing and data visualisation
-[R4MFCL](https://github.com/PacificCommunity/ofp-sam-r4mfcl)         | Matt       | 2020 Jul      | data.table, dplyr, ggmap, ggplot2, gridExtra, magrittr, mapdata, maps, reshape2, rlang, RODBC, RSQLite, scales, stringr, tidyr, viridis, xtable | Automate the running and analysis of MFCL stock assessments
+[R4MFCL](https://github.com/PacificCommunity/ofp-sam-r4mfcl)         | Arni       | 2020 Nov      | data.table, dplyr, ggmap, ggplot2, gridExtra, magrittr, mapdata, maps, reshape2, rlang, RODBC, RSQLite, scales, stringr, tidyr, viridis, xtable | Automate the running and analysis of MFCL stock assessments
 
 The 'maintainer, 'last modified', and 'dependencies' columns are subject to
-change. They were last updated on 6 Aug 2022.
+change. They were last updated on 4 Nov 2022.
