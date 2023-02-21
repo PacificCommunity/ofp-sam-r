@@ -1,5 +1,3 @@
-#!/usr/bin/Rscript
-
 data <- read.table("data.txt", header=TRUE)
 
 fm <- lm(dist~speed, data)
