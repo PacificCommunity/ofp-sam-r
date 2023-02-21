@@ -1,8 +1,8 @@
 universe = vanilla
 executable = condor_run.sh
-error = $(Cluster).$(Process).condor_mfcl.err
-log = $(Cluster).$(Process).condor_mfcl.log
-output = $(Cluster).$(Process).condor_mfcl.out
+error = $(Cluster).$(Process).condor_r.err
+log = $(Cluster).$(Process).condor_r.log
+output = $(Cluster).$(Process).condor_r.out
 requirements = (OpSys == "LINUX") && (Machine != "nouofpcalc02.corp.spc.int")
 rank = (-SlotID * Mips)
 request_memory = 6000
