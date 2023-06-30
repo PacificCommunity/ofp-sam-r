@@ -15,13 +15,14 @@ related to Multifan-CL:
 
 Package                                                              | Maintainer | Created  | Last modified | Dependencies                                                                                                                                    | Purpose
 -------------------------------------------------------------------- | ---------- | -------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------
-[diags4MFCL](https://github.com/PacificCommunity/ofp-sam-diags4MFCL) | Nicholas   | 2020 Apr | 2022 Jan      | FLR4MFCL, frqit, data.table, ggplot2, ggthemes, magrittr, RColorBrewer                                                                          | Present MFCL results and diagnostics
+[diags4MFCL](https://github.com/PacificCommunity/ofp-sam-diags4MFCL) | Nicholas   | 2020 Apr | 2022 Nov      | FLR4MFCL, frqit, data.table, ggplot2, ggthemes, magrittr, RColorBrewer                                                                          | Present MFCL results and diagnostics
+[condor](https://github.com/PacificCommunity/ofp-sam-condor)         | Arni       | 2023 Feb | 2023 Jun      | ssh                                                                                                                                             | Interact with Condor from R via SSH
 [frqit](https://github.com/PacificCommunity/ofp-sam-frqit)           | Matt       | 2020 May | 2021 Jun      | FLR4MFCL                                                                                                                                        | Read and manipulate MFCL frq files
-[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-flr4mfcl)     | Rob        | 2015 Mar | 2022 Nov      | FLCore                                                                                                                                          | Tame MULTIFAN-CL
-[miWantemLuk](https://github.com/PacificCommunity/mi-wantem-luk)     | Rob        | 2021 Feb | 2022 Jul      | FLR4MFCL, chorddiag, hrbrthemes, networkD3, patchwork, r2d3, tidyverse, viridis                                                                 | Graphing and data visualisation
-[R4MFCL](https://github.com/PacificCommunity/ofp-sam-r4mfcl)         | Arni       | 2011 May | 2022 Nov      | data.table, dplyr, ggmap, ggplot2, gridExtra, magrittr, mapdata, maps, reshape2, rlang, RODBC, RSQLite, scales, stringr, tidyr, viridis, xtable | Automate the running and analysis of MFCL stock assessments
+[FLR4MFCL](https://github.com/PacificCommunity/ofp-sam-flr4mfcl)     | Rob        | 2015 Mar | 2023 Jun      | FLCore                                                                                                                                          | Tame MULTIFAN-CL
+[miWantemLuk](https://github.com/PacificCommunity/mi-wantem-luk)     | Rob        | 2021 Feb | 2023 Jun      | FLR4MFCL, chorddiag, hrbrthemes, networkD3, patchwork, r2d3, tidyverse, viridis                                                                 | Graphing and data visualisation
+[R4MFCL](https://github.com/PacificCommunity/ofp-sam-r4mfcl)         | Arni       | 2011 May | 2023 Feb      | data.table, dplyr, ggmap, ggplot2, gridExtra, magrittr, mapdata, maps, reshape2, rlang, RODBC, RSQLite, scales, stringr, tidyr, viridis, xtable | Automate the running and analysis of MFCL stock assessments
 
-This table was last updated on 24 Nov 2022.
+This table was last updated on 30 Jun 2023.
 
 ## OFP-SAM Shiny apps
 
@@ -32,14 +33,17 @@ assessments:
 2. **Grid** app to plot all grid models
 
 Arni applied the Stepwise app to the YFT 2020 review, based on the SKJ 2022
-Stepwise app.
+Stepwise app. Jemery and Arni then adapted the Stepwise app to the BET and YFT
+2023 assessments.
 
-Shiny apps for the YFT 2020 review:
+The following repositories contain OFP-SAM Shiny apps for stock assessments:
 
-
-Purpose         | App                                                                                | Source
---------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------
-YFT 2020 review | arni-magnusson/[stepwise-2020](https://arni-magnusson.shinyapps.io/stepwise-2020/) | yft-review-analysis/R/shiny/[stepwise-2020](https://github.com/PacificCommunity/ofp-sam-yft-review-analysis/tree/main/R/shiny/stepwise-2020)
-YFT 2020 review | arni-magnusson/[john](https://arni-magnusson.shinyapps.io/john/)                   |
-
-- https://arni-magnusson.shinyapps.io/nick/
+Purpose                | Repository                                                                                      | Online
+---------------------- | ----------------------------------------------------------------------------------------------- | ------
+Development            | https://github.com/PacificCommunity/ofp-sam-shinyMFCL                                           | -
+BET 2020 sensitivities | https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/bet_2020_sensitivities | -
+BET 2023 stepwise      | https://github.com/PacificCommunity/ofp-sam-bet-2023-shiny                                      | -
+SKJ 2022 sensitivities | https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/skj_2022_reg5_sens     | -
+SKJ 2022 stepwise      | https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/skj_2022_stepwise      | -
+YFT 2020 review        | https://github.com/PacificCommunity/ofp-sam-shinyMFCL/tree/main/examples/yft_2020_review        | -
+YFT 2023 stepwise      | https://github.com/PacificCommunity/ofp-sam-yft-2023-shiny                                      | -
